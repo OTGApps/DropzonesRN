@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "sdkVersion": "21.0.0",
+    "packagerOpts": {
+      "sourceExts": [
+        "ts",
+        "tsx"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    }
+  }
+}
