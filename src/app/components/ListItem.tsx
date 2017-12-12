@@ -8,7 +8,6 @@ export interface ListItemProps {
 
 export default function ListItem(props: ListItemProps) {
   const { imageUrl, songName } = props
-  console.log('PROPS', props)
   return (
     <View style={{ flexDirection: 'row', borderBottomWidth: 0.5, borderBottomColor: 'lightgrey' }}>
       <Image
